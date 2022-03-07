@@ -5,7 +5,7 @@ Routines to perform sample-diversification for mini-batch stochastic gradient
 descent/ascent.
 """
 from sklearn.gaussian_process.kernels import RBF
-from .sampler import sampler
+from sampler import sampler
 import numpy as np
 
 
